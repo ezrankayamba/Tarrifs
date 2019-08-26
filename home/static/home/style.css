@@ -1,0 +1,131 @@
+html,
+body{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #f0f0f0;
+}
+header, main{
+    padding: .2rem 10%;
+}
+header{
+    background: #333333;
+    color: #f0f0f0;
+}
+header h1{
+    margin: 0;
+    display: inline;
+    background: #33CCCC;
+    padding: 0 .4rem;
+    font-size: 28px;
+}
+header h1 a.logo{
+    color: #333333;
+    text-decoration: none;
+}
+header nav.navbar{
+    display: inline-block;
+    float: right;
+}
+
+nav.navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav.navbar ul li{
+    display: inline-block;
+}
+nav.navbar ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    display: block;
+    padding: .4rem;
+    font-size: 16px;
+}
+nav.navbar ul li a.active {
+    color: #33FFCC;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+main section{
+    flex: 1;
+    padding: .2rem;
+}
+main article{
+    width: 10em;
+    margin-top: 1rem;
+}
+main article .right-content{
+    border:1px solid #DDEEDD;
+}
+main article h3{
+    margin: 0;
+    background: #DDEEDD;
+    padding: .2rem .4rem;
+}
+main article ul{
+    margin: 0;
+    padding: .2rem .4rem;
+    list-style: none;
+}
+main article ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #3333FF;
+}
+
+.radio-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.radio-wrap input[type='radio']{
+    display: none;
+}
+.radio-wrap label{
+    border: 1px solid #e0e0e0;
+    margin-right: 2px;
+    padding: .4rem;
+    font-weight: bold;
+}
+.radio-wrap input[type="radio"]:checked+label{
+    background: #DDEEFF;
+}
+.fetch-tarrifs {
+    margin: 1rem 0;
+    padding: .2rem 1rem;
+}
+
+table.tarrifs{
+    background: #f9f9f9;
+    padding: .2rem;
+    border: 1px solid #ccc;
+    font: 16px "Open Sans", Helvetica, Arial, sans-serif;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+table.tarrifs tr th{
+    text-align: left;
+    text-overflow: nowrap;
+    color: #333333;
+    padding: .2rem .4rem;
+    border: 1px solid #cccc;
+    text-transform: uppercase;
+    background: #999;
+    color:#f0f0f0;
+}
+table.tarrifs tr td{
+    text-align: left;
+    text-overflow: nowrap;
+    color: #333333;
+    padding: .2rem .4rem;
+    border: 1px solid #cccc;
+    font-size: 12px;
+}
+

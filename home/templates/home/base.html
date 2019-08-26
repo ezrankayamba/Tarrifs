@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tarrifs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'home/style.css' %}">
+</head>
+<body>
+    <header>
+        <h1><a class="logo" href="#">Tarrifs</a></h1>
+        <nav class="navbar">
+            <ul>
+                <li><a  href="{% url 'tarrifs-home' %}">Home</a></li>
+                <li><a  href="{% url 'mmoney-home' %}">Mobile Money</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            {% block content %}
+            {% endblock %}
+        </section>
+        <article>
+            <div class="right-content">
+                <h3>News</h3>
+                <ul>
+                    <li>Added Mobile Money Tarrifs. <a href="{% url 'mmoney-home' %}" title="">View the tarrifs</a></li>
+                </ul>
+            </div>
+        </article>
+    </main>
+</body>
+</html>

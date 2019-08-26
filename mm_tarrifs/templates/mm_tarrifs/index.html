@@ -1,0 +1,29 @@
+{% extends 'home/base.html' %}
+{% load humanize %}
+
+{% block content %}
+    <h1>Mobile Money Tarrifs</h1>
+    <form action="{% url 'mmoney-home' %}" method="post">
+        {% csrf_token %}
+        <div class="radio-wrap">
+            {% for mno in mnos %}
+                <input onchange="this.form.submit()" {% if selected_mno == mno.code %}checked="checked"{% endif %} type="radio" name="mno" id="mno-{{ forloop.counter }}" value="{{ mno.code }}">
+                <label for="mno-{{ forloop.counter }}">{{ mno.name }}</label><br>
+            {% endfor %}
+        </div>
+    </form>
+    <table class="tarrifs">
+        <tr class="header">
+            {% for th in headers %}
+                <th>{{ th }}</th>
+            {% endfor %}
+        </tr>
+        {% for row in tarrifs %}
+            <tr>
+                {% for key, val in row.items %}
+                    <td>{{ val|intcomma }}</td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

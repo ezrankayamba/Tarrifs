@@ -1,0 +1,101 @@
+IPESA
+
+Ada za Wateja wa TTCL Pesa
+
+rio
+
+(een east
+
+ 
+
+100 999
+1,000 1,999
+2,000 2,999
+3,000 3,999
+4,000 4,999
+5,000 6,999
+7,000 7,999
+8,000 9,999
+10,000 19,999
+20,000 29,999
+30,000 39,999
+40,000 49,999
+50,000 99,999
+
+100,000 199,999
+200,000 299,999
+300,000 399,999
+400,000 499,999
+500,000 599,999
+600,000 699,999
+700,000 799,999
+800,000 899,999
+900,000 1,000,000
+1,000,001 3,000,000
+
+5 N/A N/A
+
+10 350 350
+15 350 350
+25 500 450
+40 550 450
+80 750 700
+80 800 700
+80 800 750
+220 1,400 1,100
+250 1,600 1,400
+280 1,700 1,450
+350 2,200 1,800
+450 2,600 2,200
+650 3,600 2,800
+750 4,750 4,300
+1,150 5,950 5,000
+1,350 6,550 5,500
+1,750 7,600 5,600
+2,350 8,500 6,300
+2,400 8,500 6,400
+2,450 9,000 7,000
+2,450 9,000 7,000
+2,800 N/A 7,000
+
+a
+
+Kuweka pesa
+Kutuma pesa kwa wateja wasio na akaunti ya
+TTCL PESA na wateja wa mitandao mingine
+Kutoa Pesa kwa mteja ambaye hana akaunti ya
+TICLPESA
+
+Kubadilisha namba ya sir
+kununua muda wa maange2i na vifurushi
+
+Kiwango cha juu cha kuhifadhi pesa kwenye akaunti
+Kuangalia salio
+
+Tarifa ndogo
+
+Kupata menu ya TTCLPESA
+
+Kupata menu ya wakala
+
+‘Viger na Mash signin
+
+ 
+
+4,000 3,000,000 BURE
+‘Ada ya Kutuma na
+
+1,000 1,000,000 Raya Ka
+1,000 1,000,000 BURE
+
+BURE
+
+se *150*7 1#
+esa 00
+
+Fie —| Seetretemeneee
+
+*150°71# — Rutinyumbani una tunage
+
+50°718
+Koribu katika kizazi cha T. Tumefanikisha
