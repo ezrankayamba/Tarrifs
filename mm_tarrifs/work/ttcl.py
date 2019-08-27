@@ -16,8 +16,8 @@ with open('images/ttcl_fees.jpg', 'wb') as out_file:
 del response
 im = Image.open(img_path)
 img_text = image_to_string(im)
-with open(text_path, 'w', newline='') as f:
-    f.write(img_text)
+with open(text_path, 'wb') as f:
+    f.write(img_text.encode('utf-8'))
 line_regex = '^\d{1,}[,\d NA/]{0,}\d{0,}$'
 lines = []
 with open(text_path, 'r') as f:
